@@ -1,5 +1,5 @@
 {
-    "id": "a0fdb0cf-30d7-4ab8-8869-fa3d0ff0a6d7",
+    "id": "e00059c5-5eb6-44f5-9351-e45aa0eb48c3",
     "name": "CloudFoundry",
     "friendlyName": "Cloud Foundry",
     "description": "Push your applications to Cloud Foundry",
@@ -9,11 +9,12 @@
                 "Build",    
                 "Release"
                   ],
-    "author": "Microsoft",
+    "author": "ICS",
     "demands": [],
+    "minimumAgentVersion": "2.144.0",
     "version": {
         "Major": 1,
-        "Minor": 164,
+        "Minor": 165,
         "Patch": 0
     },
     "groups": [
@@ -297,7 +298,7 @@
       }
     ],
     "execution": {
-        "Node": {
+        "Node10": {
             "target": "cloudfoundry.js",
             "argumentFormat": ""
         }

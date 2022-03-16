@@ -276,7 +276,7 @@ function packageTask(pkgPath, commonDeps, commonSrc) {
 					// Build a list of external task lib dependencies.
 					var externals = require('./externals.json');
 					var libDeps = [];
-					if (task.execution['Node']) {
+					if (task.execution['Node10']) {
 						libDeps.push({
 							"name": "azure-pipelines-task-lib",
 							"src": "node_modules",

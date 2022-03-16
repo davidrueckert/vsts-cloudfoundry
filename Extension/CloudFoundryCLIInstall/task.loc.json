@@ -1,5 +1,5 @@
 {
-  "id": "1dd22dc2-95a2-4ca3-8eb4-3f65a1acd1b3",
+  "id": "15b3f0bd-048a-4b52-bf88-526a6fde0e82",
   "name": "CloudFoundryCLIInstall",
   "friendlyName": "ms-resource:loc.friendlyName",
   "description": "ms-resource:loc.description",
@@ -10,15 +10,15 @@
     "Build",
     "Release"
   ],
-  "author": "Microsoft",
+  "author": "ICS",
   "demands": [],
   "satisfies": [
     "cf"
   ],
-  "minimumAgentVersion": "2.142.1",
+  "minimumAgentVersion": "2.144.0",
   "version": {
     "Major": 0,
-    "Minor": 164,
+    "Minor": 165,
     "Patch": 0
   },
   "inputs": [
@@ -26,13 +26,13 @@
       "name": "cfVersion",
       "type": "string",
       "label": "ms-resource:loc.input.label.cfVersion",
-      "defaultValue": "6.43.0",
+      "defaultValue": "7.2.0",
       "required": true,
       "helpMarkDown": "ms-resource:loc.input.help.cfVersion"
     }
   ],
   "execution": {
-    "Node": {
+    "Node10": {
       "target": "cfcliinstaller.js"
     }
   },

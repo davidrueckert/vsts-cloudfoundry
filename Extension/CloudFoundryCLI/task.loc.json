@@ -1,5 +1,5 @@
 {
-  "id": "1b1e3b29-38c5-4ee5-8ddf-da4cba27964b",
+  "id": "c42fa100-ed8d-4fde-861f-27a33fb8702f",
   "name": "CloudFoundryCLI",
   "friendlyName": "ms-resource:loc.friendlyName",
   "description": "ms-resource:loc.description",
@@ -9,11 +9,12 @@
     "Build",
     "Release"
   ],
-  "author": "Microsoft",
+  "author": "ICS",
   "demands": [],
+  "minimumAgentVersion": "2.144.0",
   "version": {
     "Major": 0,
-    "Minor": 164,
+    "Minor": 165,
     "Patch": 0
   },
   "groups": [
@@ -120,7 +121,7 @@
     }
   ],
   "execution": {
-    "Node": {
+    "Node10": {
       "target": "cloudfoundrycli.js",
       "argumentFormat": ""
     }
