@@ -3,9 +3,9 @@
     "id": "cloud-foundry-build-extension",
     "name": "Cloud Foundry",
     "version": "1.165.0",
-    "publisher": "ms-vsts",
+    "publisher": "ChurchOfJesusChrist-ICS",
     "description": "Cloud Foundry build extension to push applications to a Cloud Foundry instance.",
-    "public": true,
+    "public": false,
     "categories": [
         "Azure Pipelines"
     ],

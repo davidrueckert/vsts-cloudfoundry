@@ -26,7 +26,7 @@
           "name": "cfVersion",
           "type": "string",
           "label": "Cloud Foundry Version",
-          "defaultValue": "7.2.0",
+          "defaultValue": "6.43.0",
           "required": true,
           "helpMarkDown": "Specify the version of Cloud Foundry CLI to install"
         }
